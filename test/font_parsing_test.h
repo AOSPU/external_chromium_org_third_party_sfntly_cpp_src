@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-#ifndef TYPOGRAPHY_FONT_SFNTLY_SRC_TEST_FILE_IO_TEST_H_
-#define TYPOGRAPHY_FONT_SFNTLY_SRC_TEST_FILE_IO_TEST_H_
+#ifndef TYPOGRAPHY_FONT_SFNTLY_SRC_TEST_FONT_PARSING_TEST_H_
+#define TYPOGRAPHY_FONT_SFNTLY_SRC_TEST_FONT_PARSING_TEST_H_
 
 namespace sfntly {
 
-bool testFileInputStream();
-bool testFontInputStreamBasic();
-bool testFontInputStreamTableLoading();
+bool testFontParsing();
+bool testTTFReadWrite();
+bool testTTFMemoryBasedReadWrite();
 
 }  // namespace sfntly
 
-#endif  // TYPOGRAPHY_FONT_SFNTLY_SRC_TEST_FILE_IO_TEST_H_
+#endif  // TYPOGRAPHY_FONT_SFNTLY_SRC_TEST_FONT_PARSING_TEST_H_
